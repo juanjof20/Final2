@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Catalogo - TheBicycleShop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+        crossorigin="anonymous">
+
+    <!-- Nuestro CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="img/catalogo/logo.png"/>
+</head>
+
+<body>
+    <!--javascript para que funcione el dropdown-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-light" >
+      <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/novedades/logo.png" width="200px" height="200px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" class="text-center">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link text-white" href="index.html">
+                      Novedades
+                      <span class="sr-only">(current)</span>
+                  </a>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="catalogo.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Catálogo
+                  </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="catalogo.html">
+                      Enduro
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="catalogo.html">Downhill</a>
+              </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="contacto.html">Contacta</a>
+              </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- NAVBAR SCROLLSPY -->
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Categorias</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#Enduro">Enduro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Downhill">Downhill</a>
+          </li>
+        </ul>
+    </nav>
+
+    <!-- SECCIONES/CATEGORIAS -->
+    <div class="row">
+      <div id="Enduro" class="col-lg-4 col-md-6" style="float:left">
+        <div class="card bg-dark text-white">
+          <img src="img/catalogo/montaña.png" class="card-img">
+          <div class="card-img-overlay">
+            <h3 class="card-title">Enduro</h3>
+            <p class="card-text">Una de las mejores modalidades dentro de este maravilloso deporte.</p>
+            <p class="card-text">Pedalea!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-6" style="float:left">
+          <div class="col-lg-4 col-md-6" style="float:left">
+            <div id="tarjetaSlider" class="card mb-4">
+              <div class="card">
+                <img src="img/novedades/img1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h6 id="textoCard" class="card-title"><a href="producto.html">Enduro Bike 2021</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="float:left">
+            <div id="tarjetaSlider" class="card mb-4">
+              <div class="card">
+                <img src="img/novedades/img1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h6 id="textoCard" class="card-title"><a href="producto.html">Enduro Bike 2021</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="float:left">
+            <div id="tarjetaSlider" class="card mb-4">
+              <div class="card">
+                <img src="img/novedades/img1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h6 id="textoCard" class="card-title"><a href="producto.html">Enduro Bike 2021</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="float:left">
+            <div id="tarjetaSlider" class="card mb-4">
+              <div class="card">
+                <img src="img/novedades/img1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h6 id="textoCard" class="card-title"><a href="producto.html">Enduro Bike 2021</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!--  LINEA DIVISORA -->
+    <hr/>
+    <div class="row">
+        <div id="Downhill" class="col-lg-4 col-md-6" style="float:left">
+          <div class="card bg-dark text-white">
+            <img src="img/catalogo/montaña.png" class="card-img">
+            <div class="card-img-overlay">
+              <h3 class="card-title">Downhill</h3>
+              <p class="card-text">Una de las mejores modalidades dentro de este maravilloso deporte.</p>
+              <p class="card-text">Pedalea!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6" style="float:left">
+          <div class="col-lg-4 col-md-6" style="float:left">
+            <div id="tarjetaSlider" class="card mb-4">
+              <div class="card">
+                <img src="img/novedades/img2.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h6 id="textoCard" class="card-title"><a href="producto.html">Enduro Bike 2021</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="float:left">
+            <div id="tarjetaSlider" class="card mb-4">
+              <div class="card">
+                <img src="img/novedades/img2.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h6 id="textoCard" class="card-title"><a href="producto.html">Enduro Bike 2021</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="float:left">
+            <div id="tarjetaSlider" class="card mb-4">
+              <div class="card">
+                <img src="img/novedades/img1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h6 id="textoCard" class="card-title"><a href="producto.html">Enduro Bike 2021</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="float:left">
+            <div id="tarjetaSlider" class="card mb-4">
+              <div class="card">
+                <img src="img/novedades/img1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h6 id="textoCard" class="card-title"><a href="producto.html">Enduro Bike 2021</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+    </div>
+    <!--  LINEA DIVISORA -->
+    <hr/>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid">
+          <div id="item1" class="row">
+              <div class="col-6 col-md-3 item">
+                  <h3>Servicios</h3>
+                  <ul>
+                      <li><a href="catalogo.html">Venta</a></li>
+                      <li><a href="contacto.html">Reparacion</a></li>
+                  </ul>
+              </div>
+              <div class="col-6 col-md-3 item">
+                  <h3>Sobre</h3>
+                  <ul>
+                    <li><a href="contacto.html">Contactar</a></li>
+                    <li><a href="contacto.html">Servicio Técnico</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4 item text">
+                  <h3>The Bicycle Shop</h3>
+                  <p>Somos una empresa especializada en bicicletas de competicion, tenemos desde enduro, downhill hasta carretera.</p>
+              </div>
+              <div class="col item social">
+                <a href="https://www.facebook.com/">
+                  <img src="img/producto/facebook.png">
+                </a>
+                <a href="https://www.google.com/intl/es/gmail/about/#">
+                  <img src="img/producto/gmail.png">
+                </a>                  
+                <a href="contacto.html">
+                  <img src="img/producto/contacto.png">
+                </a>            
+                <p class="copyright">The Bicycle Shop © 2021</p>
+            </div>
+          </div>
+      </div>
+    </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+</body>
+</html>
